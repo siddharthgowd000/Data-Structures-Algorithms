@@ -77,14 +77,7 @@ class Linkedlist:
     def sortLinkedList(self):
         fast = 1
         slow = 0
-        listt = self.list1()
-        for fast in range(1, len(listt)):
-            key = listt[fast]
-            slow = fast - 1
-            while(slow >= 0 and key < listt[slow]):
-                listt[slow+1] = listt[slow]
-                slow -= 1
-            listt[slow+1] = key
+        
 
         
             
