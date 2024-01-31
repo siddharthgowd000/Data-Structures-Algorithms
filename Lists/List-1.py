@@ -8,4 +8,5 @@ for i in range(1,n+1,k):
     listt.sort(reverse=True)
     list2.extend(listt)
 print(list2)
+print("hi")
 
