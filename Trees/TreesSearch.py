@@ -22,7 +22,7 @@ class BinaryTree:
     def search(self, num):
         if self.root == num:
             print("Number Found")
-            return
+            return 
         if num < self.root:
             if self.left is None:
                 print("Not Found")

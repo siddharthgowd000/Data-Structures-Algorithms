@@ -51,9 +51,7 @@ class Linkedlist:
 
         current.next = None
         self.__length -= 1
-
-    
-
+        
     def printList(self):
         if self.__length == 0:
             print("List is Empty")
