@@ -55,7 +55,6 @@ class BinaryTree:
                 self.right.search(data, count)
             else:
                 print("Data not found")
-    
 
 
 bt = BinaryTree(10)
